@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC575C31D75907E00973FD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC575C21D75907E00973FD2 /* main.m */; };
+		DBC575C61D75907E00973FD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC575C51D75907E00973FD2 /* AppDelegate.m */; };
+		DBC575C91D75907F00973FD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC575C81D75907F00973FD2 /* ViewController.m */; };
+		DBC575CC1D75907F00973FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC575CA1D75907F00973FD2 /* Main.storyboard */; };
+		DBC575CE1D75907F00973FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC575CD1D75907F00973FD2 /* Assets.xcassets */; };
+		DBC575D11D75907F00973FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC575CF1D75907F00973FD2 /* LaunchScreen.storyboard */; };
+		DBC575DC1D75907F00973FD2 /* SwitchViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC575DB1D75907F00973FD2 /* SwitchViewControllerTests.m */; };
+		DBC575E71D75907F00973FD2 /* SwitchViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC575E61D75907F00973FD2 /* SwitchViewControllerUITests.m */; };
+		DBC575FA1D7590A700973FD2 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC575F51D7590A700973FD2 /* ContainerViewController.m */; };
+		DBC575FB1D7590A700973FD2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC575F71D7590A700973FD2 /* FirstViewController.m */; };
+		DBC575FC1D7590A700973FD2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC575F91D7590A700973FD2 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC575D81D75907F00973FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC575B61D75907E00973FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC575BD1D75907E00973FD2;
+			remoteInfo = SwitchViewController;
+		};
+		DBC575E31D75907F00973FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC575B61D75907E00973FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC575BD1D75907E00973FD2;
+			remoteInfo = SwitchViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC575BE1D75907E00973FD2 /* SwitchViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC575C21D75907E00973FD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBC575C41D75907E00973FD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBC575C51D75907E00973FD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBC575C71D75907E00973FD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBC575C81D75907F00973FD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBC575CB1D75907F00973FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC575CD1D75907F00973FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC575D01D75907F00973FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC575D21D75907F00973FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC575D71D75907F00973FD2 /* SwitchViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC575DB1D75907F00973FD2 /* SwitchViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchViewControllerTests.m; sourceTree = "<group>"; };
+		DBC575DD1D75907F00973FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC575E21D75907F00973FD2 /* SwitchViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC575E61D75907F00973FD2 /* SwitchViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchViewControllerUITests.m; sourceTree = "<group>"; };
+		DBC575E81D75907F00973FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC575F41D7590A700973FD2 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		DBC575F51D7590A700973FD2 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		DBC575F61D7590A700973FD2 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DBC575F71D7590A700973FD2 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DBC575F81D7590A700973FD2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DBC575F91D7590A700973FD2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC575BB1D75907E00973FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC575D41D75907F00973FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC575DF1D75907F00973FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC575B51D75907E00973FD2 = {
+			isa = PBXGroup;
+			children = (
+				DBC575C01D75907E00973FD2 /* SwitchViewController */,
+				DBC575DA1D75907F00973FD2 /* SwitchViewControllerTests */,
+				DBC575E51D75907F00973FD2 /* SwitchViewControllerUITests */,
+				DBC575BF1D75907E00973FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC575BF1D75907E00973FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC575BE1D75907E00973FD2 /* SwitchViewController.app */,
+				DBC575D71D75907F00973FD2 /* SwitchViewControllerTests.xctest */,
+				DBC575E21D75907F00973FD2 /* SwitchViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC575C01D75907E00973FD2 /* SwitchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBC575C41D75907E00973FD2 /* AppDelegate.h */,
+				DBC575C51D75907E00973FD2 /* AppDelegate.m */,
+				DBC575C71D75907E00973FD2 /* ViewController.h */,
+				DBC575C81D75907F00973FD2 /* ViewController.m */,
+				DBC575F41D7590A700973FD2 /* ContainerViewController.h */,
+				DBC575F51D7590A700973FD2 /* ContainerViewController.m */,
+				DBC575F61D7590A700973FD2 /* FirstViewController.h */,
+				DBC575F71D7590A700973FD2 /* FirstViewController.m */,
+				DBC575F81D7590A700973FD2 /* SecondViewController.h */,
+				DBC575F91D7590A700973FD2 /* SecondViewController.m */,
+				DBC575CA1D75907F00973FD2 /* Main.storyboard */,
+				DBC575CD1D75907F00973FD2 /* Assets.xcassets */,
+				DBC575CF1D75907F00973FD2 /* LaunchScreen.storyboard */,
+				DBC575D21D75907F00973FD2 /* Info.plist */,
+				DBC575C11D75907E00973FD2 /* Supporting Files */,
+			);
+			path = SwitchViewController;
+			sourceTree = "<group>";
+		};
+		DBC575C11D75907E00973FD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC575C21D75907E00973FD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC575DA1D75907F00973FD2 /* SwitchViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC575DB1D75907F00973FD2 /* SwitchViewControllerTests.m */,
+				DBC575DD1D75907F00973FD2 /* Info.plist */,
+			);
+			path = SwitchViewControllerTests;
+			sourceTree = "<group>";
+		};
+		DBC575E51D75907F00973FD2 /* SwitchViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC575E61D75907F00973FD2 /* SwitchViewControllerUITests.m */,
+				DBC575E81D75907F00973FD2 /* Info.plist */,
+			);
+			path = SwitchViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC575BD1D75907E00973FD2 /* SwitchViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC575EB1D75907F00973FD2 /* Build configuration list for PBXNativeTarget "SwitchViewController" */;
+			buildPhases = (
+				DBC575BA1D75907E00973FD2 /* Sources */,
+				DBC575BB1D75907E00973FD2 /* Frameworks */,
+				DBC575BC1D75907E00973FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchViewController;
+			productName = SwitchViewController;
+			productReference = DBC575BE1D75907E00973FD2 /* SwitchViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC575D61D75907F00973FD2 /* SwitchViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC575EE1D75907F00973FD2 /* Build configuration list for PBXNativeTarget "SwitchViewControllerTests" */;
+			buildPhases = (
+				DBC575D31D75907F00973FD2 /* Sources */,
+				DBC575D41D75907F00973FD2 /* Frameworks */,
+				DBC575D51D75907F00973FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC575D91D75907F00973FD2 /* PBXTargetDependency */,
+			);
+			name = SwitchViewControllerTests;
+			productName = SwitchViewControllerTests;
+			productReference = DBC575D71D75907F00973FD2 /* SwitchViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC575E11D75907F00973FD2 /* SwitchViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC575F11D75907F00973FD2 /* Build configuration list for PBXNativeTarget "SwitchViewControllerUITests" */;
+			buildPhases = (
+				DBC575DE1D75907F00973FD2 /* Sources */,
+				DBC575DF1D75907F00973FD2 /* Frameworks */,
+				DBC575E01D75907F00973FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC575E41D75907F00973FD2 /* PBXTargetDependency */,
+			);
+			name = SwitchViewControllerUITests;
+			productName = SwitchViewControllerUITests;
+			productReference = DBC575E21D75907F00973FD2 /* SwitchViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC575B61D75907E00973FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Spark;
+				TargetAttributes = {
+					DBC575BD1D75907E00973FD2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DBC575D61D75907F00973FD2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DBC575BD1D75907E00973FD2;
+					};
+					DBC575E11D75907F00973FD2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DBC575BD1D75907E00973FD2;
+					};
+				};
+			};
+			buildConfigurationList = DBC575B91D75907E00973FD2 /* Build configuration list for PBXProject "SwitchViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC575B51D75907E00973FD2;
+			productRefGroup = DBC575BF1D75907E00973FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC575BD1D75907E00973FD2 /* SwitchViewController */,
+				DBC575D61D75907F00973FD2 /* SwitchViewControllerTests */,
+				DBC575E11D75907F00973FD2 /* SwitchViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC575BC1D75907E00973FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC575D11D75907F00973FD2 /* LaunchScreen.storyboard in Resources */,
+				DBC575CE1D75907F00973FD2 /* Assets.xcassets in Resources */,
+				DBC575CC1D75907F00973FD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC575D51D75907F00973FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC575E01D75907F00973FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC575BA1D75907E00973FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC575FC1D7590A700973FD2 /* SecondViewController.m in Sources */,
+				DBC575C91D75907F00973FD2 /* ViewController.m in Sources */,
+				DBC575C61D75907E00973FD2 /* AppDelegate.m in Sources */,
+				DBC575FB1D7590A700973FD2 /* FirstViewController.m in Sources */,
+				DBC575FA1D7590A700973FD2 /* ContainerViewController.m in Sources */,
+				DBC575C31D75907E00973FD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC575D31D75907F00973FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC575DC1D75907F00973FD2 /* SwitchViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC575DE1D75907F00973FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC575E71D75907F00973FD2 /* SwitchViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC575D91D75907F00973FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC575BD1D75907E00973FD2 /* SwitchViewController */;
+			targetProxy = DBC575D81D75907F00973FD2 /* PBXContainerItemProxy */;
+		};
+		DBC575E41D75907F00973FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC575BD1D75907E00973FD2 /* SwitchViewController */;
+			targetProxy = DBC575E31D75907F00973FD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC575CA1D75907F00973FD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC575CB1D75907F00973FD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC575CF1D75907F00973FD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC575D01D75907F00973FD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC575E91D75907F00973FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC575EA1D75907F00973FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC575EC1D75907F00973FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imliaoyuan.www.SwitchViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBC575ED1D75907F00973FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imliaoyuan.www.SwitchViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBC575EF1D75907F00973FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imliaoyuan.www.SwitchViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchViewController.app/SwitchViewController";
+			};
+			name = Debug;
+		};
+		DBC575F01D75907F00973FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imliaoyuan.www.SwitchViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchViewController.app/SwitchViewController";
+			};
+			name = Release;
+		};
+		DBC575F21D75907F00973FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imliaoyuan.www.SwitchViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchViewController;
+			};
+			name = Debug;
+		};
+		DBC575F31D75907F00973FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imliaoyuan.www.SwitchViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC575B91D75907E00973FD2 /* Build configuration list for PBXProject "SwitchViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC575E91D75907F00973FD2 /* Debug */,
+				DBC575EA1D75907F00973FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC575EB1D75907F00973FD2 /* Build configuration list for PBXNativeTarget "SwitchViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC575EC1D75907F00973FD2 /* Debug */,
+				DBC575ED1D75907F00973FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC575EE1D75907F00973FD2 /* Build configuration list for PBXNativeTarget "SwitchViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC575EF1D75907F00973FD2 /* Debug */,
+				DBC575F01D75907F00973FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBC575F11D75907F00973FD2 /* Build configuration list for PBXNativeTarget "SwitchViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC575F21D75907F00973FD2 /* Debug */,
+				DBC575F31D75907F00973FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC575B61D75907E00973FD2 /* Project object */;
+}
